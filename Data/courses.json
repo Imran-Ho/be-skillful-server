@@ -1,0 +1,27 @@
+[
+    {
+      "id": "01",
+      "name": "Basic Networking"
+    },
+    {
+      "id": "02",
+      "name": "Advance Networking"
+    },
+    {
+      "id": "03",
+      "name": "Cisco Certification"
+    },
+    {
+      "id": "04",
+      "name": "Mikrotik Cretification"
+    },
+    {
+      "id": "05",
+      "name": "MCE Certification"
+    },
+    {
+      "id": "06",
+      "name": "MCSA Certification"
+    }
+    
+  ]
