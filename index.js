@@ -32,7 +32,7 @@ app.get('/item/:id', (req, res) =>{
   // console.log(req.params)
   console.log(req.params.id)
   const id = req.params.id;
-  const item = subjects.find(sub => sub._id === id)
+  const item = subjects.find(sub => sub.subject_id === id)
   res.send(item)
 })
 
