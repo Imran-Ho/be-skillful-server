@@ -1,0 +1,12 @@
+[
+    {
+    
+            "id": "ab",
+            "subject_id": "01",
+            "facilities": { "number": 4.5, "badge": "Excellent" },
+            "title": "Basic Networking",
+            "image": "https://media.istockphoto.com/photos/magnifying-glass-over-internet-wires-picture-id1331975264?b=1&k=20&m=1331975264&s=170667a&w=0&h=P7tLDvb8jfO6ebjqxOkpjGa3qkDdxjr-AU4kN9S_wj4=",
+            "details": "This free online basic concepts of networking course can be a great help to learners. who are willing to learn the basics of networking.This course gives you information regarding the basic concepts of networking and introduces you to IP addressing and routing."
+
+    }
+]
