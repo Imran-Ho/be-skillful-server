@@ -20,6 +20,13 @@ app.get('/courses', (req, res) =>{
 app.get('/subjects', (req, res) =>{
   res.send(subjects)
 })
+app.get('/subjects/:id', (req, res) =>{
+  // console.log(req.params.id)
+  const id = req.params.id;
+  const selectedSubject = subjects.find(subject => subject.subject_id === id)
+  res.send(selectedSubject)
+  // res.send(subjects)
+})
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
