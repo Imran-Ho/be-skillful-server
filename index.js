@@ -28,6 +28,14 @@ app.get('/subjects/:id', (req, res) =>{
   // res.send(subjects)
 })
 
+app.get('/item/:id', (req, res) =>{
+  // console.log(req.params)
+  console.log(req.params.id)
+  const id = req.params.id;
+  const item = subjects.find(sub => sub._id === id)
+  res.send(item)
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
